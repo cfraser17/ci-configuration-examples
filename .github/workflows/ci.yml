@@ -30,4 +30,4 @@ jobs:
       - name: Run a command
         uses: matlab-actions/run-command@v1
         with:
-          command: hello
+          command: ver -support
