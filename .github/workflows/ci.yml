@@ -31,4 +31,8 @@ jobs:
         uses: matlab-actions/run-command@v1
         with:
           command: ver -support
-#yaml file fix AGAIN AND AGAION asdfasfsd
+
+      - name: Hello!
+        uses: matlab-actions/run-command@v1
+        with:
+          command: hello
