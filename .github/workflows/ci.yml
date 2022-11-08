@@ -35,3 +35,6 @@ jobs:
         uses: matlab-actions/run-command@v1
         with:
           command: license checkout Compiler
+=======
+          command: ver -support
+
