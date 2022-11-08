@@ -25,8 +25,16 @@ jobs:
       - name: Setup MATLAB
         uses: matlab-actions/setup-matlab@v1
 
-      # As an alternative to run-tests, you can use run-command to execute a MATLAB script, function, or statement
-      - name: Run a command
+      # Run MATLAB commands
+      - name: Run ver -support
         uses: matlab-actions/run-command@v1
         with:
           command: ver -support
+      
+      - name:
+        uses: matlab-actions/run-command@v1
+        with:
+          command: license checkout Compiler
+=======
+          command: ver -support
+
