@@ -31,7 +31,13 @@ jobs:
         with:
           command: ver -support
       
+      - name:
+        uses: matlab-actions/run-command@v1
+        with:
+
+          command: ver -support
       - name: Try to check out compiler
         uses: matlab-actions/run-command@v1
         with:
           command: license checkout Compiler
+
